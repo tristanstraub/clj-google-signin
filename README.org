@@ -1,0 +1,10 @@
+#+HTML: <a href="https://clojars.org/com.tristanstraub/clj-google-signin"><img href="https://img.shields.io/clojars/v/com.tristanstraub/clj-google-signin.svg"></a>
+
+Server side token verification:
+
+#+BEGIN_SRC clojure
+  (let [id      (clj-google-signin.token/verify client-id token)
+        user-id (.. id getPayload getSubject)]
+    (println :id id
+             :user-id user-id))
+#+END_SRC

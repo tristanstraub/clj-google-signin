@@ -1,0 +1,2 @@
+{:bootlaces  [[adzerk/bootlaces "0.1.13" :scope "testing"]]
+ :google-api [[com.google.api-client/google-api-client "1.22.0"]]}
