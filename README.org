@@ -1,4 +1,4 @@
-#+HTML: <a href="https://clojars.org/com.tristanstraub/clj-google-signin"><img href="https://img.shields.io/clojars/v/com.tristanstraub/clj-google-signin.svg"></a>
+[[https://clojars.org/com.tristanstraub/clj-google-signin][https://img.shields.io/clojars/v/com.tristanstraub/clj-google-signin.svg]]
 
 Server side token verification:
 
